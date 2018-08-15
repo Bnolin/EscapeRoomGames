@@ -1,4 +1,4 @@
-﻿html {
+html {
 	height: 950px;
     background-color: #a6aaad;
 }
@@ -17,7 +17,7 @@ body
     background-color: #000000;
 }
 
-img.Banner{
+img#BannerImg{
     display:block;
     margin-left:auto;
     margin-right:auto;
@@ -40,15 +40,26 @@ img.Banner{
     border-color: #000000;
 }
 
-#Navigation {
-	font-size: 24px;
-    color: #ba3822;
-    font-weight: bold;
-    text-decoration: underline;
+nav {
+    width: 150px;
+    height: 700px;
 }
 
-#Page {
-	font-size: 12px;
+nav a {
+    background-color: #eee; 
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #cccccc; 
+}
+
+nav a.active {
+    background-color: #ba3822;
+    color: white;
 }
 
 #Content {
@@ -62,6 +73,14 @@ img.Banner{
     border-color: #000000; 
 }
 
+.ContentTitle {
+    color: #ba3822;
+	font-size: 24px;
+	font-weight: bold;
+    width: 300px;
+    margin: 0px auto;
+}
+
 img.Content{
     display:block;
     margin-left:auto;
@@ -70,7 +89,7 @@ img.Content{
     width: 100px;
 }
 
-img.Puzzle{
+img#Puzzle{
     display:block;
     margin-left:auto;
     margin-right:auto;
@@ -78,7 +97,7 @@ img.Puzzle{
     width: 125px;
 }
 
-img.Building{
+img#Building{
     display:block;
     margin-left:auto;
     margin-right:auto;
@@ -86,34 +105,29 @@ img.Building{
     width: 150px;
 }
 
-.Link {
-	font-weight: bold;
-	color: #0000ff;
-	font-size: 12px;
-}
-
-#Section {
-    color: #ba3822;
-	font-size: 24px;
-	font-weight: bold;
-    width: 250px;
-    margin: 0px auto;
-}
-
-#TeamMember {
+.TeamMember {
 	font-size: 16px;
 	font-weight: bold;
     color: #000000;
 }
 
-#Descriptor {
+.Descriptor {
 	font-size: 16px;
 	font-weight: bold;
     color: #ba3822;
+    white-space: nowrap;
 }
 
-#Footer {
-    width: 350px;
+#References a:link { 
+   color: #ba3822;
+}
+
+#References a:visited {
+   color: #49331a;
+    
+}
+
+footer {
     margin: 0px auto;
     text-align: center;
     color: #000000;
