@@ -133,8 +133,9 @@ footer {
     color: #000000;
 }
 
-/* Specialty styling for mobile devices */
-@media only screen and (max-width: 800px) {
+/* Styling for mobile devices */
+/* Height = 667px, Width = 375px */
+@media only screen and (max-device-height: 667px) {
 
     html {
         height: 600px;
@@ -142,36 +143,41 @@ footer {
 
     body
     {
-        height: 350px;
+        height: 600px;
         font-size: 10px;
     }
 
     #Banner {
         height: 58px;
-        width: 300px;
+        width: 375px;
+    }
+    
+    img#BannerImg{
+        height: 58px;
+        width: 200px;
     }
 
     #Main {
         height: 600px;
-        width: 300px;
+        width: 375px;
     }
 
     #LeftColumn {
         width: 75px;
-        height: 300px;
+        height: 600px;
         border-width : 2px;
     }
 
     nav {
         width: 75px;
-        height: 300px;
+        height: 600px;
     }
 
     #Content {
-        width: 225px;
+        width: 300px;
         height: 600px;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 71px;
+        padding-right: 0px;
         border-width : 2px;
     }
 
@@ -182,7 +188,7 @@ footer {
 
     img.Content{
         height: 40px;
-        width: 50px;
+        width: 75px;
     }
 
     img#Puzzle{
@@ -200,6 +206,10 @@ footer {
     }
 
     .Descriptor {
+        font-size: 12px;
+    }
+    
+    input {
         font-size: 12px;
     }
 
