@@ -46,7 +46,7 @@ nav {
 }
 
 nav a {
-    background-color: #eee; 
+    background-color: #eeeeee; 
     color: black; 
     display: block; 
     padding: 12px; 
@@ -131,4 +131,76 @@ footer {
     margin: 0px auto;
     text-align: center;
     color: #000000;
+}
+
+/* Specialty styling for mobile devices */
+@media only screen and (max-width: 600px) {
+
+    html {
+        height: 600px;
+    }
+
+    body
+    {
+        height: 350px;
+        font-size: 10px;
+    }
+
+    #Banner {
+        height: 58px;
+        width: 300px;
+    }
+
+    #Main {
+        height: 600px;
+        width: 300px;
+    }
+
+    #LeftColumn {
+        width: 75px;
+        height: 300px;
+        border-width : 2px;
+    }
+
+    nav {
+        width: 75px;
+        height: 300px;
+    }
+
+    #Content {
+        width: 225px;
+        height: 600px;
+        padding-left: 100px;
+        padding-right: 100px;
+        border-width : 2px;
+    }
+
+    .ContentTitle {
+        font-size: 16px;
+        width: 150px;
+    }
+
+    img.Content{
+        height: 40px;
+        width: 50px;
+    }
+
+    img#Puzzle{
+        height: 40px;
+        width: 65px;
+    }
+
+    img#Building{
+        height: 75px;
+        width: 75px;
+    }
+
+    .TeamMember {
+        font-size: 12px;
+    }
+
+    .Descriptor {
+        font-size: 12px;
+    }
+
 }
