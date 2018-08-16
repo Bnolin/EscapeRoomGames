@@ -132,34 +132,6 @@ footer {
     color: #000000;
 }
 
-/* Styling for larger mobile devices
-   Re-size text to better fit device
-@media only screen and (max-device-height: 800px) {
-
-    body
-    {
-        font-size: 10px;
-    }
-
-    .ContentTitle {
-        font-size: 20px;
-    }
-
-    .TeamMember {
-        font-size: 14px;
-    }
-
-    .Descriptor {
-        font-size: 14px;
-    }
-    
-    input {
-        font-size: 14px;
-    }
-}
-*/
-
-
 /* Styling for small mobile devices
    Re-size content to fit device */
 @media only screen and (max-device-height: 600px) {
