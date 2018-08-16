@@ -132,27 +132,93 @@ footer {
     color: #000000;
 }
 
-/* Styling for mobile devices */
+/* Styling for larger mobile devices
+   Re-size text to better fit device */
 @media only screen and (max-device-height: 800px) {
 
     body
     {
-        font-size: 400px;
+        font-size: 10px;
     }
 
     .ContentTitle {
-        font-size: 32px;
+        font-size: 20px;
     }
 
     .TeamMember {
-        font-size: 28px;
+        font-size: 14px;
     }
 
     .Descriptor {
-        font-size: 28px;
+        font-size: 14px;
     }
     
     input {
-        font-size: 18px;
+        font-size: 14px;
     }
 }
+
+/* Styling for small mobile devices
+   Re-size content to fit device */
+@media only screen and (max-device-height: 600px) {
+     body
+    {
+        height: 600px;
+        font-size: 10px;
+    }
+     #Banner {
+        height: 58px;
+        width: 375px;
+    }
+    
+    img#BannerImg{
+        height: 58px;
+        width: 200px;
+    }
+     #Main {
+        height: 600px;
+        width: 375px;
+    }
+     #LeftColumn {
+        width: 75px;
+        height: 600px;
+        border-width : 2px;
+    }
+     nav {
+        width: 75px;
+        height: 600px;
+    }
+     #Content {
+        width: 300px;
+        height: 600px;
+        padding-left: 71px;
+        padding-right: 0px;
+        border-width : 2px;
+    }
+     .ContentTitle {
+        font-size: 16px;
+        width: 150px;
+    }
+     img.Content{
+        height: 40px;
+        width: 75px;
+    }
+     img#Puzzle{
+        height: 40px;
+        width: 65px;
+    }
+     img#Building{
+        height: 75px;
+        width: 75px;
+    }
+     .TeamMember {
+        font-size: 12px;
+    }
+     .Descriptor {
+        font-size: 12px;
+    }
+    
+    input {
+        font-size: 12px;
+    }
+ }
