@@ -137,27 +137,22 @@ footer {
 
     body
     {
-        font-size: 11px;
+        font-size: 18px;
     }
 
     .ContentTitle {
-        font-size: 20px;
+        font-size: 32px;
     }
 
     .TeamMember {
-        font-size: 14px;
+        font-size: 28px;
     }
 
     .Descriptor {
-        font-size: 14px;
+        font-size: 28px;
     }
     
     input {
-        font-size: 14px;
+        font-size: 18px;
     }
-    
-    footer{
-        color:#42f468; 
-    }
-
 }
