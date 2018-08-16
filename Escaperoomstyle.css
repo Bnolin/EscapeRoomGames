@@ -137,23 +137,23 @@ footer {
 
     body
     {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .ContentTitle {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .TeamMember {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .Descriptor {
-        font-size: 12px;
+        font-size: 14px;
     }
     
     input {
-        font-size: 12px;
+        font-size: 14px;
     }
     
     footer{
