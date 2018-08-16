@@ -133,7 +133,7 @@ footer {
 }
 
 /* Styling for larger mobile devices
-   Re-size text to better fit device */
+   Re-size text to better fit device
 @media only screen and (max-device-height: 800px) {
 
     body
@@ -157,6 +157,8 @@ footer {
         font-size: 14px;
     }
 }
+*/
+
 
 /* Styling for small mobile devices
    Re-size content to fit device */
