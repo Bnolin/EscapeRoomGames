@@ -6,7 +6,7 @@ body
 {
 	font-family: Times New Roman;
 	font-weight: normal;
-	height: 950px;
+	height: 1175px;
 	color: #ffffff;
 }
 
@@ -23,7 +23,7 @@ img#BannerImg{
 }
 
 #Main {
-    height: 1175px;
+    height: 900px;
     width: 900px;
     margin: auto;
     background-color: #a6aaad;
@@ -32,7 +32,7 @@ img#BannerImg{
 #LeftColumn {
     float:left;
     width: 150px;
-    height: 700px;
+    height: 900px;
     text-align: center;
     border-style : solid;
     border-width : 5px;
@@ -41,7 +41,7 @@ img#BannerImg{
 
 nav {
     width: 150px;
-    height: 700px;
+    height: 900px;
 }
 
 nav a {
@@ -63,7 +63,7 @@ nav a.active {
 
 #Content {
     width: 590px;
-    height: 700px;
+    height: 900px;
     padding-left: 200px;
     padding-right: 100px;
     text-align: center;
@@ -137,62 +137,11 @@ footer {
 
     body
     {
-        height: 600px;
         font-size: 10px;
-    }
-
-    #Banner {
-        height: 58px;
-        width: 375px;
-    }
-    
-    img#BannerImg{
-        height: 58px;
-        width: 200px;
-    }
-
-    #Main {
-        height: 600px;
-        width: 375px;
-    }
-
-    #LeftColumn {
-        width: 75px;
-        height: 600px;
-        border-width : 2px;
-    }
-
-    nav {
-        width: 75px;
-        height: 600px;
-    }
-
-    #Content {
-        width: 300px;
-        height: 600px;
-        padding-left: 71px;
-        padding-right: 0px;
-        border-width : 2px;
     }
 
     .ContentTitle {
         font-size: 16px;
-        width: 150px;
-    }
-
-    img.Content{
-        height: 40px;
-        width: 75px;
-    }
-
-    img#Puzzle{
-        height: 40px;
-        width: 65px;
-    }
-
-    img#Building{
-        height: 75px;
-        width: 75px;
     }
 
     .TeamMember {
@@ -208,9 +157,7 @@ footer {
     }
     
     footer{
-    
-        color: #42f468; 
-        
+        color:#42f468; 
     }
 
 }
