@@ -133,7 +133,7 @@ footer {
 }
 
 /* Styling for mobile devices */
-@media only screen and (max-device-height: 750px) {
+@media only screen and (max-device-height: 800px) {
 
     body
     {
